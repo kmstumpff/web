@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <title>
+            SCM Dashboard
+        </title>
+        <link href="images/main.ico" rel="shortcut icon" type=
+        "image/vnd.microsoft.icon">
+        <link href="gitlab-1.css" media="screen" rel="stylesheet"
+        type="text/css">
+        <link href="scm.css" rel="stylesheet" type="text/css">
+        <script src="gitlab-1.js" type="text/javascript"></script>
+        <script type="text/javascript">
+
+        $(function(){
+        $('.item').hide();   
+        $(".header2").click(function(){
+        $(this).next(".item").slideToggle("fast");
+        }); 
+        });
+        </script>
+    </head>
+    <body style="min-width:800px;">
+        <div id="scmheader">
+            <div id="scmlogo">
+                <img src="images/main-2.png" alt="">
+            </div><!-- End logo -->
+            <div id="scmTitle">
+                <p id="scmTitle2">
+                    Surround SCM
+                </p>
+            </div><!-- End Title -->
+            <div id="scmlogout">
+                <a href="logout.html" id="scmlogout">Logout</a>
+            </div><!-- End Title -->
+            <div id="scmuseroptions">
+                <a id="scmuseroptions">Developer, Joe</a>
+            </div><!-- End Title -->
+        </div><!-- End header -->
+        <div id="scmtabs">
+            <ul id="navibar">
+                <li id="navibar">
+                    <a href="/source/" id="scmNaviItem">Source
+                    View</a>
+                </li>
+                <li id="navibar">
+                    <a href="/commits/" id=
+                    "scmNaviItem">Commits</a>
+                </li>
+                <li id="navibar">
+                    <a href="/issues/" id="scmNaviItem">Issues</a>
+                </li>
+            </ul>
+        </div><!-- End tab bar -->
+        <div class="content">
+        <div class="content-middle" style="margin-top:25px;">
+            <div class="event-block event-item">
+                <span class="cgray pull-right">3 days ago.</span>
+                <img alt="" class="avatar s24" src=
+                "images/shapochniky.jpg">
+                <div class="event-title">
+                    <span class="author_name"><a href=
+                    "/users/shapochniky.jpg">shapochniky</a></span>
+                    <span class="event_label pushed">performed a
+                    checkin</span>on <a href=
+                    "Branch_1"><span class="namespace-name">Branch_1</span></a>
+                </div>
+                <div class="event-body">
+                    <ul class="well-list event_commits">
+                        <li class="commit">
+                            <div class="commit-row-title">
+                                <div id="listContainer">
+                                    <ul>
+                                        <li>
+                                            <span class=
+                                            'header2'>Add - 5
+                                            Files</span>
+                                            <ul class='item'>
+                                                <li>Item 1
+                                                </li>
+                                                <li>Item 2
+                                                </li>
+                                                <li>Item 3
+                                                </li>
+                                                <li>Item 4
+                                                </li>
+                                                <li>Item 5
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <span class=
+                                            'header2'>Checkin - 3
+                                            Files</span>
+                                            <ul class='item'>
+                                                <li>Item 1
+                                                </li>
+                                                <li>Item 2
+                                                </li>
+                                                <li>Item 3
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="event-block event-item">
+                <span class="cgray pull-right">3 days ago.</span>
+                <img alt="" class="avatar s24" src=
+                "images/shapochniky.jpg">
+                <div class="event-title">
+                    <span class="author_name"><a href=
+                    "/users/shapochniky.jpg">shapochniky</a></span>
+                    <span class="event_label pushed">performed a
+                    checkin</span>on <a href=
+                    "Branch_1"><span class="namespace-name">Branch_1</span></a>
+                </div>
+                <div class="event-body">
+                    <ul class="well-list event_commits">
+                        <li class="commit">
+                            <div class="commit-row-title">
+                                <div id="listContainer">
+                                    <ul>
+                                        <li>
+                                            <span class=
+                                            'header2'>Add - 5
+                                            Files</span>
+                                            <ul class='item'>
+                                                <li>Item 1
+                                                </li>
+                                                <li>Item 2
+                                                </li>
+                                                <li>Item 3
+                                                </li>
+                                                <li>Item 4
+                                                </li>
+                                                <li>Item 5
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <span class=
+                                            'header2'>Checkin - 3
+                                            Files</span>
+                                            <ul class='item'>
+                                                <li>Item 1
+                                                </li>
+                                                <li>Item 2
+                                                </li>
+                                                <li>Item 3
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="event-block event-item">
+                <span class="cgray pull-right">3 days ago.</span>
+                <img alt="" class="avatar s24" src=
+                "images/shapochniky.jpg">
+                <div class="event-title">
+                    <span class="author_name"><a href=
+                    "/users/shapochniky.jpg">shapochniky</a></span>
+                    <span class="event_label pushed">performed a
+                    checkin</span>on <a href=
+                    "Branch_1"><span class="namespace-name">Branch_1</span></a>
+                </div>
+                <div class="event-body">
+                    <ul class="well-list event_commits">
+                        <li class="commit">
+                            <div class="commit-row-title">
+                                <div id="listContainer">
+                                    <ul>
+                                        <li>
+                                            <span class=
+                                            'header2'>Add - 5
+                                            Files</span>
+                                            <ul class='item'>
+                                                <li>Item 1
+                                                </li>
+                                                <li>Item 2
+                                                </li>
+                                                <li>Item 3
+                                                </li>
+                                                <li>Item 4
+                                                </li>
+                                                <li>Item 5
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <span class=
+                                            'header2'>Checkin - 3
+                                            Files</span>
+                                            <ul class='item'>
+                                                <li>Item 1
+                                                </li>
+                                                <li>Item 2
+                                                </li>
+                                                <li>Item 3
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="event-block event-item">
+                <span class="cgray pull-right">3 days ago.</span>
+                <img alt="" class="avatar s24" src=
+                "images/shapochniky.jpg">
+                <div class="event-title">
+                    <span class="author_name"><a href=
+                    "/users/shapochniky.jpg">shapochniky</a></span>
+                    <span class="event_label pushed">performed a
+                    checkin</span>on <a href=
+                    "Branch_1"><span class="namespace-name">Branch_1</span></a>
+                </div>
+                <div class="event-body">
+                    <ul class="well-list event_commits">
+                        <li class="commit">
+                            <div class="commit-row-title">
+                                <div id="listContainer">
+                                    <ul>
+                                        <li>
+                                            <span class=
+                                            'header2'>Add - 5
+                                            Files</span>
+                                            <ul class='item'>
+                                                <li>Item 1
+                                                </li>
+                                                <li>Item 2
+                                                </li>
+                                                <li>Item 3
+                                                </li>
+                                                <li>Item 4
+                                                </li>
+                                                <li>Item 5
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <span class=
+                                            'header2'>Checkin - 3
+                                            Files</span>
+                                            <ul class='item'>
+                                                <li>Item 1
+                                                </li>
+                                                <li>Item 2
+                                                </li>
+                                                <li>Item 3
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>

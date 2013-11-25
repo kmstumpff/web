@@ -1,0 +1,91 @@
+#scmheader {
+background-color: #1E5089;
+width:100%;
+height: 36px;
+}
+#scmTitle {
+margin: 8px 5px;
+float:left;
+color: #FFFFFF;
+}
+p#scmTitle2{
+font-size:22px;
+font-weight:normal;
+font-family: Helvetica, sans-serif;
+}
+#scmlogo {
+margin: 2px;
+float:left;
+}
+#scmlogout {
+margin: 3px 15px 0px 20px;
+float:right;
+color: #FFFFFF;
+text-decoration:underline;
+}
+#scmuseroptions {
+margin: 3px 15px 0px 20px;
+float:right;
+color: #FFFFFF;
+}
+#scmtabs {
+background-color: #8AA9CD;
+border:2px solid #8AA9CD;
+border-radius: 2px;
+width:70%;
+margin-top:20px;
+margin-left:15%;
+height: 30px;
+}
+li#navibar
+{
+display:inline;
+margin:10px 0px 0px 0px;
+}
+ul#navibar
+{
+margin-top: 5px;
+margin-left:auto;
+margin-right:auto;
+width:315px;
+}
+
+a#scmNaviItem {
+color: #FFFFFF;
+font-size:20px;
+margin: 0px 0px 0px 15px;
+}
+div.content {
+width:70%;
+margin-top:20px;
+margin-left:15%;
+background-color: #F8F8F8;
+border:2px solid #F8F8F8;
+border-radius: 2px;
+}
+div.content-middle {
+width:90%;
+margin-left:5%;
+}
+
+#listContainer{
+  margin-top:5px;
+}
+#expList ul, li {
+    list-style: none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+}
+#expList p {
+    margin:0;
+    display:block;
+}
+#expList li {
+    line-height:140%;
+    text-indent:0px;
+    padding-left: 20px;
+}
+ 
+
+
