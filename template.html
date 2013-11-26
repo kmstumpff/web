@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            SCM Dashboard
+        </title>
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="jumbotron">
+                <center>Header</center>
+            </h1>
+            <ul class="breadcrumb">
+                <li>
+                    <span class="glyphicon glyphicon-home"></span>&nbsp;<a href="">Home</a>
+                </li>
+                <li>
+                    <span class="glyphicon glyphicon-user"></span>&nbsp;<a href="">Library</a>
+                </li>
+                <li class="active">
+                    <span class="glyphicon glyphicon-wrench"></span>&nbsp Changed
+                </li>
+            </ul>
+            <div class="btn-group col-md-2" style="background-color:#4488DD;">
+              <div class="btn-group">
+                <p align="left">Branch:</p>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                  Dropdown
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Dropdown link</a></li>
+                  <li><a href="#">Dropdown link</a></li>
+                </ul>
+              </div><br><br><br><br>Start Here<br><br><br><br>
+            </div>
+            <div class="col-md-8" style="background-color:#EEEEEE;">
+                <br>
+                <div class="well">
+                    <p align="center">Progress: <span class="badge" id="badge"></span></p>
+                    <div class="progress progress-striped active">
+                        <div class="progress-bar" id="progress" style="width: 0">
+                        </div>
+                    </div>
+                </div>
+                <div class="well">
+                    
+                    <p align="center">
+                        More Content: 
+                        <span>
+                            <img src="/users/stumpffk.jpg" alt="Me" class="img-thumbnail" height="84" width="84">
+                        </span>
+                    </p>
+                </div>
+                <div class="well">
+                    <p align="center">Even More Content</p>
+                    <ul class="list-group">
+                        <li class="list-group-item">First</li>
+                        <li class="list-group-item">Second</li>
+                        <li class="list-group-item">Third</li>
+                        <li class="list-group-item">Fourth</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-2" style="background-color:#4488DD;">
+                <p align="right">Content</p>
+            </div>
+        </div>
+    </body>
+    <script>
+        /* progress bar */
+        var counter = 0;
+        (function asyncLoop() {
+
+            document.getElementById('progress').style.width = counter + '%';
+            document.getElementById('badge').innerHTML = counter;
+            counter++;
+            if (counter <= 100) {
+                setTimeout(asyncLoop, 150);
+            }
+        })();
+    </script>
+</html>
